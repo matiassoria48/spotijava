@@ -1,0 +1,47 @@
+body {
+
+    padding: 0px 10px 1px;
+    border: 1px solid #D35780;
+    border-radius: 4px;
+    margin: 0;
+    box-shadow: 0 5px 50px #D35780, inset 0 1px 0 #D35780;
+    background: #572364;
+}
+
+body albums form {
+
+
+    padding: 10px 5px 30px;
+    border: 1px solid #D35780;
+    border-radius: 4px;
+    margin: 0 auto;
+    box-shadow: 0 1px 10px #D35780, inset 0 1px 0 #D35780;
+
+
+}
+h2 {
+    color: #ffffff;
+
+
+
+}
+h5 {
+    color: #ffffff;
+
+
+
+}
+h1 {
+    text-align: center;
+}
+
+main {
+    padding: 1.5px 5px 1.5px;
+    border: 1px solid #D35780;
+    border-radius: 4px;
+    margin: 0;
+    box-shadow: 0 1px 10px #D35780, inset 0 1px 0 #D35780;
+
+
+}
+

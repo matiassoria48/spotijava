@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang=es>
+<head>
+
+    <link rel="stylesheet" href="MyStylesheet.css">
+</head>
+<body class="container">
+<div class="row">
+    <div class="col-12">
+        <h2 id="demo">Usuario:</h2>
+        <input  type="text" padding=5px marggin=200px align="centre">
+        <h2 id="demo2">Contrasenia:</h2>
+        <input type="text" align="centre">
+        <script>
+            document.getElementById("demo").onmouseenter = function () {
+                mouseEnter()
+            };
+            document.getElementById("demo").onmouseleave = function () {
+                mouseLeave()
+            };
+            document.getElementById("demo2").onmouseenter = function () {
+                mouseEnter2()
+            };
+            document.getElementById("demo2").onmouseleave = function () {
+                mouseLeave2()
+            }
+                function mouseEnter() {
+                    document.getElementById("demo").style.color = "purple";
+                }
+
+                function mouseLeave() {
+                    document.getElementById("demo").style.color = "white";
+                }
+
+                function mouseEnter2() {
+                    document.getElementById("demo2").style.color = "purple";
+                }
+
+                function mouseLeave2() {
+                    document.getElementById("demo2").style.color = "white";
+                }
+                </script>
+    </div>
+</div>
+</body>
+</html>
